@@ -1,13 +1,11 @@
 import { Main } from "@/components/ui/main"
+import { Right } from "@/components/ui/right"
 
 const Page = () => {
 	return(
-		<div className="flex justify-center">
+		<div className="flex justify-center ml-[250px]">
 			<Main />
-
-			<div className="max-w-[200px] text-white w-full ml-5 py-4 bg-red-500">
-				...
-			</div>
+			<Right />			
 		</div>
 	)
 }
