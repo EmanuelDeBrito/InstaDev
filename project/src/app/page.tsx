@@ -1,10 +1,14 @@
-import { AvatarsCarousel } from "@/components/main/avatars-carousel"
+import { Main } from "@/components/ui/main"
 
 const Page = () => {
 	return(
-		<main className="max-w-[500px] mx-auto py-6">
-			<AvatarsCarousel />
-		</main>
+		<div className="flex justify-center">
+			<Main />
+
+			<div className="max-w-[200px] text-white w-full ml-5 py-4 bg-red-500">
+				...
+			</div>
+		</div>
 	)
 }
 
